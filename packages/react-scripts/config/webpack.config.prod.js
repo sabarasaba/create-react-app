@@ -261,6 +261,7 @@ module.exports = {
                         ident: 'postcss',
                         plugins: () => [
                           require('postcss-nested'),
+                          require('postcss-inline-svg'),
                           require('postcss-flexbugs-fixes'),
                           autoprefixer({
                             browsers: [
